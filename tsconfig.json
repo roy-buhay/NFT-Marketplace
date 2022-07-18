@@ -1,0 +1,80 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "baseUrl": "app",
+    "paths": {
+      "@element/*": [
+        "components/elements/*"
+      ],
+      "@layout/*": [
+        "components/layouts/*"
+      ],
+      "@module/*": [
+        "components/modules/*"
+      ],
+      "@template/*": [
+        "components/templates/*"
+      ],
+      "@constant/*": [
+        "constants/*"
+      ],
+      "@firebase/*": [
+        "firebase/*"
+      ],
+      "@context/*": [
+        "context/*"
+      ],
+      "@reducers/*": [
+        "reducers/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ],
+      "@util/*": [
+        "utils/*"
+      ],
+      "@api/*": [
+        "api/*"
+      ],
+      "@lib/*": [
+        "lib/*"
+      ],
+      "@config/*": [
+        "config/*"
+      ],
+      "@types/*": [
+        "types/*"
+      ],
+      "@styles/*": [
+        "styles/*"
+      ]
+    },
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "./scripts", "./test", "./typechain-types"
+  ],
+  "files": ["./hardhat.config.js"],
+  "exclude": [
+    "node_modules"
+  ]
+}
