@@ -1,6 +1,9 @@
 # NFT Marketplace
-<i>NFT marketplace DApp where users mint ERC721 implemented NFTs.</i>
-#
+<i>NFT marketplace dApp where users mint ERC721 implemented NFTs.</i>
+### Screenshots
+![Home](/screenshots/screenshot1.jpg)
+![Explore](/screenshots/screenshot2.jpg)
+![NFT Info](/screenshots/screenshot3.jpg)
 ### Features
 - Mint custom ERC721 implemented Tokens.
 - Sell tokens on the marketplace.
@@ -19,8 +22,8 @@
 - [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/) - Standard for secure blockchain applications
 - [Yarn](https://yarnpkg.com/) - Yarn is a package manager that doubles down as project manager.
 #
-### Interact with the deployed DApp
-- NFT Marketplace DApp requires [Metamask](https://metamask.io/) browser wallet extension to interact with.
+### Interact with the deployed dApp
+- NFT Marketplace dApp requires [Metamask](https://metamask.io/) browser wallet extension to interact with.
 - Connect metamask browser wallet to the Localhost/Hardhat Test Network.
 - Request and get test ethers for the metamask account from the generated wallet addresses by hardhat.
 - NFT Marketplace Smart Contract is deployed locally thru the hardhat network 
@@ -29,7 +32,7 @@
 ```
 git clone https://github.com/roy-buhay/NFT-Marketplace.git
 ```
-### Run the DApp Locally
+### Run the App Locally
 #### Install Yarn 
 ```
 npm install --global yarn
@@ -52,4 +55,4 @@ npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
 ```
 - Open metamask browser wallet and connect network to Localhost 8545.
-- Import accounts from the hardhat-cli into the metamask browser wallet to make transactions on the DApp.
+- Import accounts from the hardhat-cli into the metamask browser wallet to make transactions on the dApp.
