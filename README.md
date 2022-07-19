@@ -1,9 +1,11 @@
 # NFT Marketplace
 <i>NFT marketplace dApp where users mint ERC721 implemented NFTs.</i>
 ### Screenshots
-![Home](/screenshots/screenshot1.jpg)
-![Explore](/screenshots/screenshot2.jpg)
-![NFT Info](/screenshots/screenshot3.jpg)
+![Home](/public/screenshots/screenshot1.jpg)
+
+![Explore](/public/screenshots/screenshot2.jpg)
+
+![NFT Info](/public/screenshots/screenshot3.jpg)
 ### Features
 - Mint custom ERC721 implemented Tokens.
 - Sell tokens on the marketplace.
