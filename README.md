@@ -58,3 +58,11 @@ npx hardhat run scripts/deploy.js --network localhost
 ```
 - Open metamask browser wallet and connect network to Localhost 8545.
 - Import accounts from the hardhat-cli into the metamask browser wallet to make transactions on the dApp.
+
+### 🚧 TODOs
+```
+- Add unit testing
+- Fix "any" type to proper types
+- Mobile responsive
+- Light mode
+```
