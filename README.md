@@ -61,8 +61,9 @@ npx hardhat run scripts/deploy.js --network localhost
 
 ### 🚧 TODOs
 ```
-- Add unit testing
-- Fix "any" type to proper types
-- Mobile responsive
-- Light mode
+• Write tests
+• Update "any" types to proper types
+• Apply mobile responsiveness
+• Implement light/dark mode
+• Implement loading state on images
 ```
